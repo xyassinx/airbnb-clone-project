@@ -13,7 +13,7 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
 - **Review System**: Allows users to leave reviews and ratings for properties.
 - **Data Optimization**: Efficient data retrieval and storage through database optimizations.
 
-## 🛠️ Features Overview
+## 🛠 Features Overview
 
 1. **API Documentation**
    - **OpenAPI Standard**: APIs documented for clarity and integration ease.
@@ -38,7 +38,21 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
    - **Indexing**: For fast retrieval of frequently accessed data.
    - **Caching**: Reduces database load and improves performance.
 
-## ⚙️ Technology Stack
+## Feature Breakdown
+
+| Feature               | Description                                                                                                   |
+|------------------------|---------------------------------------------------------------------------------------------------------------|
+| **User Management**    | Enables users to register, log in using JWT, and manage their profile. Includes host identification and account settings. |
+| **Property Management**| Hosts can create, update, and manage property listings including details like title, price, location, and availability. |
+| **Booking System**     | Allows users to browse available properties, make reservations, view booking history, and manage check-in/check-out. |
+| **Payment Processing** | Securely handles payments for bookings via integrated payment gateways. Payment records are linked to bookings. |
+| **Review System**      | Users can leave reviews and rate properties after a completed booking. Reviews help maintain trust in the platform. |
+| **API Support**        | RESTful and GraphQL APIs provide flexible access to data for frontend clients or third-party integrations.     |
+| **Asynchronous Tasks** | Background tasks (e.g., email notifications, payment confirmations) are handled using Celery and Redis.        |
+| **Data Optimization**  | Utilizes caching and indexing to speed up frequent queries and reduce load on the database.                   |
+
+
+##  Technology Stack
 
 | Technology             | Description                                              |
 |------------------------|----------------------------------------------------------|
@@ -51,7 +65,7 @@ The backend for the Airbnb Clone project provides a robust and scalable foundati
 | **Docker**             | Containerization for consistent environments             |
 | **CI/CD Pipelines**    | Automates testing and deployment workflows               |
 
-## 👥 Team Roles
+##  Team Roles
 
 - **Backend Developer**: Implements API endpoints, database schemas, and business logic.
 - **Database Administrator**: Manages database design, indexing, and optimizations.
@@ -73,12 +87,12 @@ The backend system is designed around several core entities. Below is an overvie
 
 
 
-## 📈 API Documentation Overview
+##  API Documentation Overview
 
 - **REST API**: Documented via OpenAPI, covering users, properties, bookings, and payments.
 - **GraphQL API**: Flexible query language for data retrieval and manipulation.
 
-## 📌 Endpoints Overview
+##  Endpoints Overview
 
 ### REST API Endpoints
 
